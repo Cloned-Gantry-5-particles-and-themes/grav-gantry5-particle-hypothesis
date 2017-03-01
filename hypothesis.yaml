@@ -1,0 +1,11 @@
+name: Hypothesis
+description: Displays the Hypothesis sidebar on your Grav site.
+type: atom
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable Hypothesis particle.
+      default: true
