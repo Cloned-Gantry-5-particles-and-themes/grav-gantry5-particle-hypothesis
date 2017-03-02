@@ -2,6 +2,8 @@
 
 {% block particle %}
 {% pageblock body_bottom %}
-  <script async defer src="https://hypothes.is/embed.js"></script>
+    {% if not grav.page.header.hide_hypothesis %}
+      <script async defer src="https://hypothes.is/embed.js"></script>
+    {% endif %}
 {% endpageblock %}
 {% endblock %}
